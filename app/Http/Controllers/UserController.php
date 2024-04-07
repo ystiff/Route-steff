@@ -10,8 +10,33 @@ class UserController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-    { 
-      return "hello world";
+    {
+        $data = [
+            [
+                "id"=> 1,
+                "name" => "Leanne Graham",
+                "username" => "Bret",
+                "email" => "Sincere@april.biz",
+                "phone" => "1-770-736-8031 x56442"
+            ],
+            [
+                "id" => 2,
+                "name" => "Ervin Howell",
+                "username" => "Antonette", 
+                "email" => "Sincere@april.biz",
+                "phone" => "1-770-736-8031 x09125"
+            ],
+            [
+                "id" => 3,
+                "name" => "Clementine Bauch",
+                "username" => "Samantha", 
+                "email" => "Shanna@melissa.tv",
+                "phone" => "010-692-6593 x09125"
+            ]
+
+        ];
+        
+        return response()->json($data);
     }
 
     /**
