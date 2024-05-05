@@ -1,0 +1,7 @@
+This are the initial steps that I have taken to anticipate the situation:
+
+1. Assess the process of the third-party software
+2. Outlines the procedures for addressing changes or discontinuation of the support. 
+3. Establish regular communication with the third-party software providers to stay informed about development plans and any potential changes that may impact support.
+4. Develop plans to address where third-part-support is discontinued or changes unxepectedly. 
+5. Continuous monitoring and assessment.
