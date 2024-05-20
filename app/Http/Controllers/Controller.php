@@ -10,3 +10,12 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 }
+
+
+use Illuminate\Support\Facades\DB;
+ 
+$users = DB::table('users')->get();
+ 
+foreach ($users as $user) {
+   echo $user->name;
+}
